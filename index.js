@@ -8,8 +8,17 @@ const cloudinary = require('cloudinary');
 const app = express();
 const port = 5001;
 app.use(express.json());
+app.use(cors({
+    origin: '*',
+    methods: ['GET', 'POST', 'PUT', 'DELETE'],
+    credentials: true,
+  }));
+
+const pruebaRoutes = require("./routes/pruebaRoutes");
+
+app.use("/prueba", pruebaRoutes);
 mongoose.connect(
-    "mongodb+srv://userWeb:userWeb@exameweb.ci2qqri.mongodb.net/datosEx").then(() =>
+    "mongodb+srv://userWeb:userWeb@exameweb.ci2qqri.mongodb.net/datosExamenDia17").then(() =>
         console.log("Hemos conectado con mongoDB")
     ).catch((error) =>
         console.error(error)
