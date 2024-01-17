@@ -74,7 +74,7 @@ router.get("/saldo/:email", async (req, res) => {
     //Obtenemos cuantos usuarios h9ay (cuantos emails diferentes hay en la bdd)
     const data1 = await gastoSchema.find().distinct('email');
     const numUsuarios = data1.length;
-    axios.get('http://localhost:5001/gastos/gasto/total').then((data2) => {
+    axios.get('https://back-examen-web.vercel.app/gastos/gasto/total').then((data2) => {
     saldo -= data2.data/numUsuarios;
     res.json(saldo);
     }).catch((error) => {
