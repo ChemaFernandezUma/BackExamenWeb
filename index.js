@@ -29,8 +29,10 @@ cloudinary.config({
             let stream = cloudinary.uploader.upload_stream(
               (result, error) => {
                 if (result) {
-                  resolve(result);
+                  console.log('Imagen subida correctamente: ', result)
+                    resolve(result.url);
                 } else {
+                  console.log('Error al subir la imagen: ', error)
                   reject(error);
                 }
               }
@@ -43,7 +45,8 @@ cloudinary.config({
     async function upload(req) {
       try {
         let result = await streamUpload(req);
-        res.status(200).json({ message: 'Imagen subida correctamente', imageUrl: result.url});
+        console.log('Imagen subida correctamente: ', result)
+        res.json(result)
       } catch (error) {
         console.log('Error al subir la imagen: ', error)
         res.status(500).json({ message: 'Error al subir la imagen:', error});
