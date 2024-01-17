@@ -1,74 +1,73 @@
 [
     {
-        "nombre": "Juan",
-        "texto": "Hola, ¿cómo estás?"
+      "timestamp": "2024-01-17T08:45:00.000Z",
+      "concepto": "Almuerzo",
+      "importe": 20.50,
+      "email": "steamgalle@gmail.com",
+      "token": "token123"
     },
     {
-        "nombre": "Pedro",
-        "texto": "Bien, ¿y tú?"
+      "timestamp": "2024-01-18T15:20:00.000Z",
+      "concepto": "Gasolina",
+      "importe": 35.75,
+      "email": "josemariafcanton@uma.es",
+      "token": "token456"
     },
     {
-        "nombre": "Juan",
-        "texto": "Bien, ¿qué haces?"
+      "timestamp": "2024-01-19T10:00:00.000Z",
+      "concepto": "Café",
+      "importe": 5.00,
+      "email": "steamgalle@gmail.com",
+      "token": "token789"
     },
     {
-        "nombre": "Pedro",
-        "texto": "Nada, ¿y tú?"
+      "timestamp": "2024-01-20T14:30:00.000Z",
+      "concepto": "Libros",
+      "importe": 40.25,
+      "email": "josemariafcanton@uma.es",
+      "token": "tokenABC"
     },
     {
-        "nombre": "Juan",
-        "texto": "Nada, ¿qué haces?"
+      "timestamp": "2024-01-21T12:15:00.000Z",
+      "concepto": "Cena",
+      "importe": 30.00,
+      "email": "steamgalle@gmail.com",
+      "token": "tokenXYZ"
     },
     {
-        "nombre": "Pedro",
-        "texto": "Nada, ¿y tú?"
+      "timestamp": "2024-01-22T09:45:00.000Z",
+      "concepto": "Ropa",
+      "importe": 55.50,
+      "email": "josemariafcanton@uma.es",
+      "token": "token123XYZ"
     },
     {
-        "nombre": "Juan",
-        "texto": "Nada, ¿qué haces?"
+      "timestamp": "2024-01-23T17:00:00.000Z",
+      "concepto": "Merienda",
+      "importe": 8.75,
+      "email": "steamgalle@gmail.com",
+      "token": "token456ABC"
     },
     {
-        "nombre": "Pedro",
-        "texto": "Nada, ¿y tú?"
+      "timestamp": "2024-01-24T11:30:00.000Z",
+      "concepto": "Electrodomésticos",
+      "importe": 120.00,
+      "email": "josemariafcanton@uma.es",
+      "token": "token789XYZ"
     },
     {
-        "nombre": "Juan",
-        "texto": "Nada, ¿qué haces?"
+      "timestamp": "2024-01-25T13:20:00.000Z",
+      "concepto": "Comida para mascota",
+      "importe": 15.50,
+      "email": "steamgalle@gmail.com",
+      "token": "tokenABC123"
     },
     {
-        "nombre": "Pedro",
-        "texto": "Nada, ¿y tú?"
-    },
-    {
-        "nombre": "Juan",
-        "texto": "Nada, ¿qué haces?"
-    },
-    {
-        "nombre": "Pedro",
-        "texto": "Nada, ¿y tú?"
-    },
-    {
-        "nombre": "Juan",
-        "texto": "Nada, ¿qué haces?"
-    },
-    {
-        "nombre": "Pedro",
-        "texto": "Nada, ¿y tú?"
-    },
-    {
-        "nombre": "Juan",
-        "texto": "Nada, ¿qué haces?"
-    },
-    {
-        "nombre": "Pedro",
-        "texto": "Nada, ¿y tú?"
-    },
-    {
-        "nombre": "Juan",
-        "texto": "Nada, ¿qué haces?"
-    },
-    {
-        "nombre": "Pedro",
-        "texto": "Nada, ¿y tú?"
+      "timestamp": "2024-01-26T16:45:00.000Z",
+      "concepto": "Películas",
+      "importe": 25.00,
+      "email": "josemariafcanton@uma.es",
+      "token": "tokenXYZ456"
     }
-]
+  ]
+  
